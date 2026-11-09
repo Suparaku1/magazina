@@ -1,0 +1,14 @@
+# Fazat 4–6
+- [x] Kryej kontrollin përfundimtar të procesit dhe aksesit në PostgreSQL të izoluar; 43 teste kaluan. Kontrolli bazë i sigurisë sinjalizon leximin e të dhënave bazë nga të gjithë përdoruesit e kyçur, siç parashikon konfigurimi ekzistues; nuk deklarohet siguri e plotë.
+- [x] Bëj importin Excel atomik: të gjithë rreshtat dhe regjistri ruhen bashkë ose asnjëri; u provua zhbërja pas gabimit të një rreshti dhe regjistrit.
+- [x] Krijo llogaritë e magazinierit dhe administratorit global; hyrjet dhe rolet u provuan.
+- [x] Verifiko rregullat e magazinës dhe dorëzimin e pjesshëm në PostgreSQL të izoluar (12 teste).
+- [x] Shto 8 raporte Excel me filtra dhe akses sipas roleve.
+- [x] Shto importet Excel me parapamje, validim dhe raport gabimesh.
+- [ ] Testo rrjedhën reale kërkesë → dorëzim dhe importin e konfirmuar: pret artikuj/caktime reale të konfirmuara; katalogu dhe kërkesat janë bosh.
+- [x] Shto panele me të dhëna reale sipas roleve; paneli admin/mësues i Silvanës u provua në kompjuter dhe telefon.
+- [x] Shto njoftime të procesit dhe shënimin si të lexuara; rregullat e dërgimit/vendimit/dorëzimit dhe izolimi u testuan në PostgreSQL të izoluar.
+- [x] Plotëso auditimin me filtra dhe detaje; filtrimi dhe hapja e detajeve reale u provuan si Silvana.
+- [x] Testo rregullat e fazës 6 dhe kufizimet e aksesit për katër rolet; 33 teste kaluan gjithsej.
+- [ ] Provo njoftimin real deri te shënimi si i lexuar: pret kërkesë reale dhe artikuj/caktime të konfirmuara; aktualisht nuk ka njoftime.
+- [ ] Provo panelet e shefit, magazinierit dhe mësuesit pa rol admin në shfletues: sesioni i autorizuar për këtë testim ishte vetëm i Silvanës.

@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791644102498,
+      "tag": "0000_faza1_struktura_role_rls",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791781436347,
+      "tag": "0001_faza2_katalogu",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791864827999,
+      "tag": "0002_faza3_kerkesat",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792037125048,
+      "tag": "0003_faza3_fix_select_policy",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792037786906,
+      "tag": "0004_faza4_magazina",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793682332166,
+      "tag": "0005_faza5_import_batches_stock_safety",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793682462640,
+      "tag": "0006_stock_atomic_initial_inventory",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793683012676,
+      "tag": "0007_faza6_panele_njoftime",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793811466269,
+      "tag": "0008_faza6_summary_suggestion_status",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793947440453,
+      "tag": "0009_atomic_excel_import",
+      "breakpoints": true
+    }
+  ]
+}
